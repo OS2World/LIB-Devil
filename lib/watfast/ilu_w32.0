@@ -1,0 +1,21 @@
+name ILU
+format Windows NT DLL
+option nostdcall
+file ..\..\src-ilu\src\obj\ilu_alloc.obj
+file ..\..\src-ilu\src\obj\ilu_error.obj
+file ..\..\src-ilu\src\obj\ilu_filter.obj
+file ..\..\src-ilu\src\obj\ilu_filter_rcg.obj
+file ..\..\src-ilu\src\obj\ilu_internal.obj
+file ..\..\src-ilu\src\obj\ilu_main.obj
+file ..\..\src-ilu\src\obj\ilu_manip.obj
+file ..\..\src-ilu\src\obj\ilu_mipmap.obj
+file ..\..\src-ilu\src\obj\ilu_noise.obj
+file ..\..\src-ilu\src\obj\ilu_region.obj
+file ..\..\src-ilu\src\obj\ilu_rotate.obj
+file ..\..\src-ilu\src\obj\ilu_scale.obj
+file ..\..\src-ilu\src\obj\ilu_scale2d.obj
+file ..\..\src-ilu\src\obj\ilu_scale3d.obj
+file ..\..\src-ilu\src\obj\ilu_scaling.obj
+file ..\..\src-ilu\src\obj\ilu_states.obj
+file ..\..\src-ilu\src\obj\ilu_utilities.obj
+library clib3r.lib, math387r.lib, emu387.lib, user32.lib, kernel32.lib, DevIL.lib

@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ILU - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"x86/Release/ILU.res" /i "..\include" /d "NDEBUG" "E:\444\devil-1.7.8\src-ILU\msvc8\ILU.rc"" 
+Creating temporary file "G:\WINNT\TEMP\RSP137.tmp" with contents
+[
+/nologo /MD /W3 /GX /Ox /I "../include" /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "ILU_EXPORTS" /D "_MBCS" /Fo".\../src/obj/x86/" /GF /c 
+"E:\444\devil-1.7.8\src-ILU\src\ilu_error.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_filter.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_filter_rcg.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_internal.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_main.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_manip.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_mipmap.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_noise.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_region.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_rotate.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_scale.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_scale2d.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_scale3d.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_states.c"
+"E:\444\devil-1.7.8\src-ILU\src\ilu_utilities.c"
+]
+Creating command line "xicl6.exe @G:\WINNT\TEMP\RSP137.tmp" 
+Creating temporary file "G:\WINNT\TEMP\RSP138.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib devil.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\..\..\lib\vc8\ILU.pdb" /machine:IX86 /nodefaultlib:"libc" /def:".\ilu.def" /out:".\../../lib/vc8/x86/ILU.dll" /implib:".\../../lib/vc8/x86/ILU.lib" /pdbtype:sept /libpath:"../../lib/vc8/x86" 
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_error.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_filter.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_filter_rcg.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_internal.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_main.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_manip.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_mipmap.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_noise.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_region.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_rotate.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_scale.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_scale2d.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_scale3d.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_states.obj"
+"\444\devil-1.7.8\src-ILU\src\obj\x86\ilu_utilities.obj"
+".\x86\Release\ILU.res"
+]
+Creating command line "xilink6.exe @G:\WINNT\TEMP\RSP138.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ilu_error.c
+ilu_filter.c
+ilu_filter_rcg.c
+ilu_internal.c
+ilu_main.c
+ilu_manip.c
+ilu_mipmap.c
+ilu_noise.c
+ilu_region.c
+ilu_rotate.c
+ilu_scale.c
+ilu_scale2d.c
+ilu_scale3d.c
+ilu_states.c
+ilu_utilities.c
+Generating Code...
+Linking...
+xilink6: executing 'G:\PROGRA~1\MICROS~3\VC98\Bin\link.exe'
+   Creating library .\../../lib/vc8/x86/ILU.lib and object .\../../lib/vc8/x86/ILU.exp
+Creating temporary file "G:\WINNT\TEMP\RSP13C.bat" with contents
+[
+@echo off
+copy \444\devil-1.7.8\lib\vc8\x86\ILU.dll %SYSTEMROOT%\system32
+]
+Creating command line "G:\WINNT\TEMP\RSP13C.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ILU.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

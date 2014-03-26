@@ -1,0 +1,298 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"x86/Release/IL.res" /i "..\include" /d "NDEBUG" "E:\444\devil-1.7.8\src-IL\msvc8\IL.rc"" 
+Creating temporary file "G:\WINNT\TEMP\RSP12E.tmp" with contents
+[
+/nologo /MD /W3 /GX /Ox /I "../../projects/msvc/extlibs/" /I "../include" /I "../../include" /I "../../zlib-1.2.5" /I "../../jpeg-8b" /I "../../libtiff" /I "../../lpng144" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "IL_EXPORTS" /D "_MBCS" /Fo".\../src/obj/x86/" /GF /c 
+"E:\444\devil-1.7.8\src-IL\src\il_blp.c"
+"E:\444\devil-1.7.8\src-IL\src\il_bmp.c"
+"E:\444\devil-1.7.8\src-IL\src\il_cut.c"
+"E:\444\devil-1.7.8\src-IL\src\il_dcx.c"
+"E:\444\devil-1.7.8\src-IL\src\il_dds-save.c"
+"E:\444\devil-1.7.8\src-IL\src\il_dds.c"
+"E:\444\devil-1.7.8\src-IL\src\il_dicom.c"
+"E:\444\devil-1.7.8\src-IL\src\il_doom.c"
+"E:\444\devil-1.7.8\src-IL\src\il_dpx.c"
+"E:\444\devil-1.7.8\src-IL\src\il_exr.cpp"
+"E:\444\devil-1.7.8\src-IL\src\il_fits.c"
+"E:\444\devil-1.7.8\src-IL\src\il_ftx.c"
+"E:\444\devil-1.7.8\src-IL\src\il_gif.c"
+"E:\444\devil-1.7.8\src-IL\src\il_hdr.c"
+"E:\444\devil-1.7.8\src-IL\src\il_iff.c"
+"E:\444\devil-1.7.8\src-IL\src\il_ilbm.c"
+"E:\444\devil-1.7.8\src-IL\src\il_iwi.c"
+"E:\444\devil-1.7.8\src-IL\src\il_jp2.c"
+"E:\444\devil-1.7.8\src-IL\src\il_jpeg.c"
+"E:\444\devil-1.7.8\src-IL\src\il_lif.c"
+"E:\444\devil-1.7.8\src-IL\src\il_mdl.c"
+"E:\444\devil-1.7.8\src-IL\src\il_mng.c"
+"E:\444\devil-1.7.8\src-IL\src\il_mp3.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pal.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pcd.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pcx.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pic.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pix.c"
+"E:\444\devil-1.7.8\src-IL\src\il_png.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pnm.c"
+"E:\444\devil-1.7.8\src-IL\src\il_psd.c"
+"E:\444\devil-1.7.8\src-IL\src\il_psp.c"
+"E:\444\devil-1.7.8\src-IL\src\il_pxr.c"
+"E:\444\devil-1.7.8\src-IL\src\il_raw.c"
+"E:\444\devil-1.7.8\src-IL\src\il_rawdata.c"
+"E:\444\devil-1.7.8\src-IL\src\il_rot.c"
+"E:\444\devil-1.7.8\src-IL\src\il_sgi.c"
+"E:\444\devil-1.7.8\src-IL\src\il_sun.c"
+"E:\444\devil-1.7.8\src-IL\src\il_targa.c"
+"E:\444\devil-1.7.8\src-IL\src\il_texture.c"
+"E:\444\devil-1.7.8\src-IL\src\il_tiff.c"
+"E:\444\devil-1.7.8\src-IL\src\il_tpl.c"
+"E:\444\devil-1.7.8\src-IL\src\il_utx.cpp"
+"E:\444\devil-1.7.8\src-IL\src\il_vtf.c"
+"E:\444\devil-1.7.8\src-IL\src\il_wal.c"
+"E:\444\devil-1.7.8\src-IL\src\il_wbmp.c"
+"E:\444\devil-1.7.8\src-IL\src\il_wdp.c"
+"E:\444\devil-1.7.8\src-IL\src\il_xpm.c"
+"E:\444\devil-1.7.8\src-IL\src\altivec_common.c"
+"E:\444\devil-1.7.8\src-IL\src\altivec_typeconversion.c"
+"E:\444\devil-1.7.8\src-IL\src\il_alloc.c"
+"E:\444\devil-1.7.8\src-IL\src\il_bits.c"
+"E:\444\devil-1.7.8\src-IL\src\il_convbuff.c"
+"E:\444\devil-1.7.8\src-IL\src\il_convert.c"
+"E:\444\devil-1.7.8\src-IL\src\il_devil.c"
+"E:\444\devil-1.7.8\src-IL\src\il_endian.c"
+"E:\444\devil-1.7.8\src-IL\src\il_error.c"
+"E:\444\devil-1.7.8\src-IL\src\il_fastconv.c"
+"E:\444\devil-1.7.8\src-IL\src\il_files.c"
+"E:\444\devil-1.7.8\src-IL\src\il_header.c"
+"E:\444\devil-1.7.8\src-IL\src\il_icns.c"
+"E:\444\devil-1.7.8\src-IL\src\il_icon.c"
+"E:\444\devil-1.7.8\src-IL\src\il_internal.c"
+"E:\444\devil-1.7.8\src-IL\src\il_io.c"
+"E:\444\devil-1.7.8\src-IL\src\il_main.c"
+"E:\444\devil-1.7.8\src-IL\src\il_manip.c"
+"E:\444\devil-1.7.8\src-IL\src\il_neuquant.c"
+"E:\444\devil-1.7.8\src-IL\src\il_nvidia.cpp"
+"E:\444\devil-1.7.8\src-IL\src\il_profiles.c"
+"E:\444\devil-1.7.8\src-IL\src\il_quantizer.c"
+"E:\444\devil-1.7.8\src-IL\src\il_register.c"
+"E:\444\devil-1.7.8\src-IL\src\il_rle.c"
+"E:\444\devil-1.7.8\src-IL\src\il_size.c"
+"E:\444\devil-1.7.8\src-IL\src\il_squish.cpp"
+"E:\444\devil-1.7.8\src-IL\src\il_stack.c"
+"E:\444\devil-1.7.8\src-IL\src\il_states.c"
+"E:\444\devil-1.7.8\src-IL\src\il_utility.c"
+]
+Creating command line "xicl6.exe @G:\WINNT\TEMP\RSP12E.tmp" 
+Creating temporary file "G:\WINNT\TEMP\RSP12F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comdlg32.lib user32.lib advapi32.lib gdi32.lib shell32.lib ..\..\lib\vc8\x86\libpng.lib ..\..\lib\vc8\x86\zlib.lib ..\..\lib\vc8\x86\libjpeg.lib ..\..\lib\vc8\x86\libtiff.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\../../lib/vc8/x86/DevIL.pdb" /machine:IX86 /nodefaultlib:"libc" /def:".\il.def" /out:"..\..\lib\vc8\x86\DevIL.dll" /implib:".\../../lib/vc8/x86/DevIL.lib" /pdbtype:sept 
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_blp.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_bmp.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_cut.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_dcx.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_dds-save.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_dds.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_dicom.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_doom.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_dpx.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_exr.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_fits.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_ftx.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_gif.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_hdr.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_iff.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_ilbm.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_iwi.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_jp2.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_jpeg.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_lif.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_mdl.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_mng.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_mp3.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pal.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pcd.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pcx.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pic.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pix.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_png.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pnm.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_psd.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_psp.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_pxr.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_raw.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_rawdata.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_rot.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_sgi.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_sun.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_targa.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_texture.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_tiff.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_tpl.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_utx.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_vtf.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_wal.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_wbmp.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_wdp.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_xpm.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\altivec_common.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\altivec_typeconversion.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_alloc.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_bits.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_convbuff.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_convert.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_devil.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_endian.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_error.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_fastconv.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_files.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_header.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_icns.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_icon.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_internal.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_io.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_main.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_manip.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_neuquant.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_nvidia.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_profiles.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_quantizer.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_register.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_rle.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_size.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_squish.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_stack.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_states.obj"
+"\444\devil-1.7.8\src-IL\src\obj\x86\il_utility.obj"
+".\x86\Release\IL.res"
+]
+Creating command line "xilink6.exe @G:\WINNT\TEMP\RSP12F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+il_blp.c
+il_bmp.c
+il_cut.c
+il_dcx.c
+il_dds-save.c
+E:\444\devil-1.7.8\src-IL\src\il_dds-save.c(637) : warning C4101: 'ByteData' : unreferenced local variable
+E:\444\devil-1.7.8\src-IL\src\il_dds-save.c(637) : warning C4101: 'BlockData' : unreferenced local variable
+E:\444\devil-1.7.8\src-IL\src\il_dds-save.c(633) : warning C4101: 'DXTCSize' : unreferenced local variable
+il_dds.c
+il_dicom.c
+il_doom.c
+il_dpx.c
+Generating Code...
+Compiling...
+il_exr.cpp
+Generating Code...
+Compiling...
+il_fits.c
+il_ftx.c
+il_gif.c
+il_hdr.c
+il_iff.c
+il_ilbm.c
+il_iwi.c
+il_jp2.c
+il_jpeg.c
+il_lif.c
+il_mdl.c
+il_mng.c
+il_mp3.c
+il_pal.c
+il_pcd.c
+il_pcx.c
+il_pic.c
+il_pix.c
+il_png.c
+il_pnm.c
+Generating Code...
+Compiling...
+il_psd.c
+il_psp.c
+il_pxr.c
+il_raw.c
+il_rawdata.c
+il_rot.c
+il_sgi.c
+il_sun.c
+il_targa.c
+il_texture.c
+il_tiff.c
+il_tpl.c
+Generating Code...
+Compiling...
+il_utx.cpp
+Generating Code...
+Compiling...
+il_vtf.c
+il_wal.c
+il_wbmp.c
+il_wdp.c
+il_xpm.c
+altivec_common.c
+altivec_typeconversion.c
+il_alloc.c
+il_bits.c
+il_convbuff.c
+il_convert.c
+il_devil.c
+il_endian.c
+il_error.c
+il_fastconv.c
+il_files.c
+il_header.c
+il_icns.c
+il_icon.c
+il_internal.c
+Generating Code...
+Compiling...
+il_io.c
+il_main.c
+il_manip.c
+il_neuquant.c
+Generating Code...
+Compiling...
+il_nvidia.cpp
+Generating Code...
+Compiling...
+il_profiles.c
+il_quantizer.c
+il_register.c
+il_rle.c
+E:\444\devil-1.7.8\src-IL\src\il_rle.c(85) : warning C4018: '==' : signed/unsigned mismatch
+il_size.c
+Generating Code...
+Compiling...
+il_squish.cpp
+Generating Code...
+Compiling...
+il_stack.c
+il_states.c
+il_utility.c
+Generating Code...
+Linking...
+xilink6: executing 'G:\PROGRA~1\MICROS~3\VC98\Bin\link.exe'
+   Creating library .\../../lib/vc8/x86/DevIL.lib and object .\../../lib/vc8/x86/DevIL.exp
+Creating temporary file "G:\WINNT\TEMP\RSP133.bat" with contents
+[
+@echo off
+copy \444\devil-1.7.8\lib\vc8\x86\DevIL.dll %SYSTEMROOT%\system32
+]
+Creating command line "G:\WINNT\TEMP\RSP133.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+DevIL.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
